@@ -16,5 +16,16 @@ namespace SistemaGestionEstudiantes
         {
             InitializeComponent();
         }
+
+        private void btnLimpiar_Click(object sender, EventArgs e)
+        {
+            txtCodigo.Clear();
+            txtNombre.Clear();
+            txtApellido.Clear();
+            txtDocumento.Clear();
+            txtPrograma.Clear();
+            txtEdad.Clear();
+            txtCodigo.Focus();
+        }
     }
 }
